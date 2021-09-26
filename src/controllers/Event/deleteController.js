@@ -1,4 +1,4 @@
-const Event = require('../../database/models/Event');
+const Event = require('../../models/Event');
 
 exports.deleteController = async (req, res) => {
     const { id } = req.params;

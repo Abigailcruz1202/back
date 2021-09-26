@@ -1,5 +1,5 @@
-const Event = require('../../database/models/Event');
-const Location = require('../../database/models/Location')
+const Event = require('../../models/Event');
+const Location = require('../../models/Location')
 
 
 exports.getAllLocations = async (req,res) => {

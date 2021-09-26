@@ -1,5 +1,5 @@
-const User = require('../../database/models/User');
-const Comment = require('../../database/models/Comment');
+const User = require('../../models/User');
+const Comment = require('../../models/Comment');
 
 
 exports.getAllUsers = async (req,res) => {

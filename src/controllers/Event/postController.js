@@ -1,6 +1,6 @@
-const Event = require('../../database/models/Event');
-const Promoter = require ('../../database/models/Promoter');
-const Location = require('../../database/models/Location');
+const Event = require('../../models/Event');
+const Promoter = require ('../../models/Promoter');
+const Location = require('../../models/Location');
 
 exports.saveInfoEvent = async (req,res) => {
     console.log(req.body.promoter_id)

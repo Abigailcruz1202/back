@@ -1,7 +1,7 @@
-const Event = require('../../database/models/Event');
-const Comment = require('../../database/models/Comment');
-const Location = require('../../database/models/Location');
-const Promoter = require('../../database/models/Promoter');
+const Event = require('../../models/Event');
+const Comment = require('../../models/Comment');
+const Location = require('../../models/Location');
+const Promoter = require('../../models/Promoter');
 
 
 exports.getController = async (req,res) => {

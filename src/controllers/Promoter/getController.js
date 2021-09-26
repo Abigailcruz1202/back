@@ -1,5 +1,5 @@
-const Promoter = require ('../../database/models/Promoter');
-const Event =require('../../database/models/Event');
+const Promoter = require ('../../models/Promoter');
+const Event =require('../../models/Event');
 
 exports.getAllPromoters = async (req,res) => {
     try {

@@ -1,4 +1,4 @@
-const Promoter = require ('../../database/models/Promoter');
+const Promoter = require ('../../models/Promoter');
 const { Sequelize } = require('sequelize');
 const Op = Sequelize.Op;
 
